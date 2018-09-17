@@ -1,4 +1,4 @@
-![Lemnisk Logo](https://github.com/lemnisk/lemnisk-android-sdk/blob/master/resources/LemniskLogo.png)
+![Lemnisk Logo](https://github.com/vizury/lemnisk-android-sdk/blob/master/resources/LemniskLogo.png)
 ## Summary
  This is Android SDK integration guide.
  
@@ -140,7 +140,7 @@ Create a FCM[fcm_console] project if you dont already have one. After creating y
 
 a) Place the `google-services.json` that you had downloaded from the FCM console in the app module.
 
-![add_google_services](https://github.com/lemnisk/lemnisk-android-sdk/blob/master/resources/add_google_services_json.png)
+![add_google_services](https://github.com/vizury/lemnisk-android-sdk/blob/master/resources/add_google_services_json.png)
 
 
 b) Gradle changes
