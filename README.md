@@ -22,7 +22,7 @@
 
 Examples on how the Lemnisk SDK can be integrated.
 
-`examples/HelloLemnisk` is a sample app having a basic integration with lemnisk SDK.
+`HelloLemnisk` is a sample app having a basic integration with lemnisk SDK.
 
 
 ## <a id="basic-integration"></a>Basic Integration
@@ -273,4 +273,3 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 [style_icons]:			https://material.google.com/style/icons.html
 [FCM]:				https://firebase.google.com/docs/cloud-messaging/
 [firebase-link]:		https://firebase.google.com/docs/cloud-messaging/android/client
-[FCMTokenReader]:		https://github.com/lemnisk/lemnisk-android-sdk/blob/master/examples/HelloLemnisk-FCM/app/src/main/java/com/lemnisk/hellolemniskfcm/FCMTokenReader.java
