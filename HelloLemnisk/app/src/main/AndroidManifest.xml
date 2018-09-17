@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.lemnisk.app.android.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lem_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lem_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="co.lemnisk.app.android.Push.LemFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="co.lemnisk.app.android.Push.LemFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="co.lemnisk.app.android.Push.LemIntentService"
+            android:exported="false">
+        </service>
+
+        <meta-data
+            android:name="Lemnisk.VRM_ID"
+            android:value="1" />
+
+        <!--Put server url received from Lemnisk Account manager-->
+        <meta-data
+            android:name="Lemnisk.SERVER_URL"
+            android:value="https://us-pl.lemnisk.co/analyze/analyze.php" />
+
+        <!--drawable resource for notification icon-->
+        <meta-data
+            android:name="Lemnisk.NOTIFICATION_ICON"
+            android:resource="@drawable/lem_logo" />
+        <!-- drawable resource for small notification icon that will appear in notification bar -->
+        <meta-data
+            android:name="Lemnisk.NOTIFICATION_ICON_SMALL"
+            android:resource="@drawable/lem_logo" />
+        <!--- set to true for developer mode. Change to false once going to production -->
+        <meta-data
+            android:name="Lemnisk.DEBUG_MODE"
+            android:value="true" />
+
+    </application>
+
+</manifest>

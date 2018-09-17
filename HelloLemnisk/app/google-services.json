@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "482732072582",
+    "firebase_url": "https://hellolemnisk.firebaseio.com",
+    "project_id": "hellolemnisk",
+    "storage_bucket": "hellolemnisk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482732072582:android:35bec3ab745b3c3d",
+        "android_client_info": {
+          "package_name": "co.lemnisk.app.android.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482732072582-ur7fh5t8ocaj6sf615bku443s2430s8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCreOErQqj0XzzxftovdtlBHsMZGSN968Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
