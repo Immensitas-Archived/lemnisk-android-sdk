@@ -37,7 +37,7 @@ repositories {
 Add the following dependency in your build.gradle file under app module
 
 ```
-implementation 'co.lemnisk.app.android:LemniskSDK:6.1.0'
+implementation 'co.lemnisk.app.android:AndroidSDK:1.0.0'
 ```
 
 ### <a id="gps-get"></a>Add Google Play Services
