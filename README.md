@@ -14,6 +14,7 @@
   * [Push Notifications](#push-notifications)
   	* [Enabling FCM](#enabling-fcm)
   	* [Configuring Application](#config-app)
+  * [GeoSDK](#GeoFencing)
   * [Additional configurations](#additional-config)
   	* [Offline caching](#offline-caching)
   	* [Controlling fcm registration and message handling](#fcm-handling)
