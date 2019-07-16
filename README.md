@@ -216,6 +216,10 @@ Add the following services for receiving the fcm token and messages.
 ```
 
 # <a id="geofencing"></a>GeoSDK
+```
+implementation 'co.lemnisk.app.android:GeoSDK:1.0.0'
+```
+
 
 ## <a id="additional-config"></a>Additional configurations
 
