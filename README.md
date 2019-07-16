@@ -14,7 +14,7 @@
   * [Push Notifications](#push-notifications)
   	* [Enabling FCM](#enabling-fcm)
   	* [Configuring Application](#config-app)
-  * [GeoSDK](#GeoFencing)
+  * [GeoSDK](#geofencing)
   * [Additional configurations](#additional-config)
   	* [Offline caching](#offline-caching)
   	* [Controlling fcm registration and message handling](#fcm-handling)
@@ -214,6 +214,8 @@ Add the following services for receiving the fcm token and messages.
 	android:exported="false">
 </service>
 ```
+
+# <a id="geofencing"></a>GeoSDK
 
 ## <a id="additional-config"></a>Additional configurations
 
